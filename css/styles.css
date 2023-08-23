@@ -1,0 +1,138 @@
+:root {
+  --pr-color: #ffffff;
+  --primary: #ebebeb;
+  --primary2: #d1cece;
+  --primary3: #b2adad;
+  --secondary: #095571;
+  --secondary2: #3a768d;
+  --secondary3: #7db0c1;
+  --dark-blue: #18437a;
+  --bg-grey: #f5f5f5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: var(--dark-blue);
+  border-radius: 24px;
+  padding: 10px 32px;
+  min-width: 100px;
+  transition: all 0.2s;
+}
+
+.button-small {
+  font-size: small;
+  border-radius: 20px;
+  padding: 8px 24px;
+}
+
+.button:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #0a2d5b;
+}
+
+
+
+.navbar-brand .careerpath-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #095571;
+  width: 288px;
+  height: 63px;
+}
+
+.nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#hero .container {
+  text-align: center;
+  margin: 0;
+}
+
+#hero h1 {
+  font-size: 80px;
+}
+
+#hero img {
+  width: 100%;
+}
+
+#solution img {
+  width: 100%;
+}
+
+#solution .left p {
+  font-size: 24px;
+}
+
+#solution .left img {
+  width: 80%;
+}
+
+#solution a {
+  color: var(--secondary);
+}
+
+#solution .rounded-4 {
+  border: solid 1px var(--secondary);
+  border-radius: 16px;
+}
+
+#about {
+  background-color: var(--bg-grey);
+}
+
+#about .summary {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#about .stat {
+  text-align: center;
+}
+
+#about .stat img {
+  height: 150px;
+}
+
+#job img {
+  height: 40px;
+}
+
+#job .joblist .p-4 {
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 40px -20px rgba(0, 0, 0, 0.75);
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 14px;
+  color: white;
+  background-color: #343a40; /* Ubah warna background sesuai kebutuhan */
+  padding: 10px;
+  margin: 0;
+}
